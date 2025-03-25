@@ -9,7 +9,7 @@ import { AssetPaths } from "./asset-paths.enum";
 const SocialMediaLinks: ExternalSite[] = [
     {
         name: "Github",
-        link: "https://github.com/dhruvilrathod",
+        link: "https://github.com/MohamedDiabyLR",
         simpleIconName: "github",
         backgroundColor: "#181717",
     },
@@ -27,13 +27,13 @@ const SocialMediaLinks: ExternalSite[] = [
     },
     {
         name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
+        link: "mailto:mdiaby.it@gmail.com",
         simpleIconName: "gmail",
         backgroundColor: "#EA4335",
     },
     {
         name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
+        link: "https://www.instagram.com/momow.p/",
         simpleIconName: "instagram",
         backgroundColor: "#FF0069",
     }
@@ -111,14 +111,14 @@ const FullstackSkills: ExternalSite[] = [
 
 // Fullstack section
 const FullstackSection: SkillSection = {
-    sectionTitle: "Fullstack Development",
+    sectionTitle: "Réseaux et Cybersécurité",
     imagePath: AssetPaths.FULL_STACK_DEVELOPMENT_SVG,
     skillLinks: FullstackSkills,
     skillsList: [
-        "Building responsive website front-end using Angular",
-        "Developing custom and interactive 3D websites",
-        "Creating application backend in Node, Express & NestJS",
-        "Managing data safely with PostgreSQL, MongoDB and OracleDB",
+        "Mise en place et sécurisation d'infrastructures réseau",
+        "Administration et configuration de serveurs sous Linux et Windows",
+        "Déploiement et gestion de pare-feu (pfSense, Windows)",
+        "Surveillance et analyse des performances réseau avec Zabbix et Grafana",
     ]
 }
 
@@ -180,9 +180,9 @@ const CloudSection: SkillSection = {
     imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
     skillLinks: CloudSkills,
     skillsList: [
-        "Experience working on multiple cloud platforms including GCP, AWS, FireBase, and Render",
-        "Hosting and maintaining websites on FireBase hosting and GoDaddy along with integration of databases",
-        "Setting up email triggers and Googlesheet integration for streamline client inquiry",
+        "Déploiement et gestion de machines virtuelles sous VmWare ou VirtualBox",
+        "⚡ Mise en place de solutions de sauvegarde et de supervision",
+        "Installation et configuration de systèmes d’exploitation (Windows Server, Linux)",
     ]
 }
 
@@ -216,13 +216,13 @@ const DesignSkills: ExternalSite[] = [
 
 // Design section
 const DesignSection: SkillSection = {
-    sectionTitle: "UI/UX Design",
+    sectionTitle: "Gestion et Sécurisation des Systèmes",
     imagePath: AssetPaths.UI_UX_DESIGN_SVG,
     skillLinks: DesignSkills,
     skillsList: [
-        "Designing highly attractive and responsive user interface for web applications",
-        "Customizing logo designs, creating visiting cards and virtual cards from scratch",
-        "Creating the flow of application functionalities to optimize user experience",
+        "Configuration et maintenance de postes de travail en réseau",
+        "Gestion des comptes utilisateurs et des permissions (Active Directory)",
+        "Application des bonnes pratiques en cybersécurité",
     ]
 }
 
@@ -237,15 +237,15 @@ const DigitalSolutionSection: SkillSection = {
     imagePath: AssetPaths.DIGITAL_SOLUTIONS_SVG,
     skillLinks: DigitalSolutionSkills,
     skillsList: [
-        "Streamlining business operations with tools like Jira, offering automated workflows, and data-driven insights.",
-        "Centralizing business data within secure, interconnected platforms to facilitate informed decision-making",
-        "Helping local businesses enable real-time communication and task coordination through MS Teams and Outlook",
+        "Suivi et gestion de l'inventaire du parc informatique",
+        "Configuration et maintenance des périphériques réseau (switchs, points d'accès WiFi)",
+        "Assistance à l'intégration de nouveaux équipements dans l'infrastructure existante",
     ]
 }
 
 // Personal projects
 const PersonalProjects: ProjectSection = {
-    sectionTitle: "My Projects",
+    sectionTitle: "Mes Projets",
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
@@ -302,85 +302,64 @@ const PersonalProjects: ProjectSection = {
 }
 
 // Freelancing projects
-const FreelancingProjects: ProjectSection = {
-    sectionTitle: "Freelancing",
-    sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
-    entities: [
-        {
-            title: "South Australia Tiling",
-            coverImagePath: AssetPaths.PROJECT_SA_TILING,
-            liveLink: "https://southaustraliatiling.com.au/",
-            description: "🚀 Built with SSR and SSG to showcase a South Australian tiling and bathroom renovation business, enhancing their online presence and visibility.",
-            techStack: ["Angular 19", "SSR/SSG", "NestJS", "Firebase"],
-            year: 2025
-        },
-        {
-            title: "Kiwi Finance",
-            coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
-            liveLink: "https://kiwifinance.com.au/",
-            description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
-            techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-            year: 2025
-        },
-        {
-            title: "RAS Finance Website + CMS",
-            coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
-            liveLink: "https://rasfinance.com.au/",
-            description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
-            techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-            year: 2024
-        },
-        {
-            title: "Acquire Conveyancing Website",
-            coverImagePath: AssetPaths.PROJECT_ACQUIRE_CONVEYANCING,
-            liveLink: "https://acquireconveyancing.com.au/",
-            description: "🏡 Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
-            techStack: ["Angular", "Tailwind", "Firebase"],
-            year: 2023
-        },
-    ]
-}
+
 
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Work Experience",
+    experienceSectionTitle: "Parcours Scolaire",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
+            orgLink: "https://www.lerebours.fr/",
             orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgName: "Lycée Le Rebours",
             positions: [
                 {
-                    positionName: "Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
-                    locationType: "On-Site",
-                    jobType: "Part-time",
+                    positionName: "BTS SIO option : Solutions d'infrastructure, systèmes et réseaux",
+                    duration: "Septembre 2023 - Present",
+                    location: "75013 Paris",
                     workPoints: [
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                        "Administration de systèmes (Windows, Linux)",
+                        "Mise en place de solutions de cybersécurité",
+                        "Configuration de réseaux et pare-feux",
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
+            orgLink: "https://www.univ-spn.fr/",
             orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgName: "Université Sorbonne Paris Nord",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
+                    positionName: "Licence Informatique",
+                    duration: "Septembre 2021 - Juin 2023",
+                    location: "93400 Villetaneuse ",
+                    
+                    
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Langages de programmation : [C , Python , JavaScript]",
+                        "Bases de données : SQL",
+                        "Programmation web et mobile",
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://pia.ac-paris.fr/serail/jcms/s1_95115/fr/accueil",
+            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
+            orgName: "Lycée Honoré de Balzac",
+            positions: [
+                {
+                    positionName: "Baccalauréat Général",
+                    duration: "Septembre 2018 - Juin 2021",
+                    location: "75017 Paris ",
+                    
+                    
+                    workPoints: [
+                        "Programmation Python",
+                        "Algorithmique",
+                        "Probabilités et statistiques",
                     ]
                 }
             ]
@@ -564,31 +543,47 @@ const AchievementInvolvement: ProjectSection = {
 }
 
 // Degrees
-const BachelorsDegree: EducationSection = {
-    degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
+const LyceeDegree: EducationSection = {
+    degreeName: "Baccalauréat Général",
+    majorName: "Spécialités Mathématiques et NSI",
+    duration: "Septembre 2018 - Juin 2021",
+    universityName: "Lycée Honoré de Balzac",
+    campusName: "75017",
     logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
     gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    websiteLink: "https://pia.ac-paris.fr/serail/jcms/s1_95115/fr/accueil",
     studyPoints: [
-        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
-        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
-        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. 🚀📊",
+        "Programmation Python",
+        "Algorithmique",
+        "Probabilités et statistiques",
+    ]
+}
+
+const BachelorsDegree: EducationSection = {
+    degreeName: "Licence",
+    majorName: "Informatique",
+    duration: "Septembre 2021 - Juin 2023",
+    universityName: "Université Sorbonne Paris Nord",
+    campusName: "Villetaneuse",
+    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
+    gpa: "6.9 / 7.0",
+    websiteLink: "https://www.univ-spn.fr/",
+    studyPoints: [
+        "Langages de programmation : [C , Python , JavaScript]",
+        "Bases de données : SQL",
+        "Programmation web et mobile",
     ]
 }
 
 const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
+    degreeName: "Brevet de Technicien Supérieur",
+    majorName: "SIO Option : Solutions d'infrastructure, systèmes et réseaux",
+    duration: "Septembre 2023 - Juin 2025",
+    universityName: "Lycée Le Rebours",
+    campusName: "75013",
     logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
     gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
+    websiteLink: "https://www.lerebours.fr/",
     studyPoints: [
         "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
         "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
@@ -600,9 +595,9 @@ const MastersDegree: EducationSection = {
 
 export const AppConfig = {
     loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
-    logoName: "Dhruvil Rathod",         // Signature font logo name in header
-    name: "Dhruvil Rathod",             // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    logoName: "Mohamed Diaby",         // Signature font logo name in header
+    name: "Mohamed Diaby",             // your name
+    emailId: "mdiaby.it@gmail.com",  // your email id
 
     // Google Form Contact Link
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
@@ -610,8 +605,8 @@ export const AppConfig = {
     // Home page
     professionalTitle: "Development | Cyber Security | Freelancing",
     professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
-    githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
+    githubProfile: "https://github.com/MohamedDiabyLR",              // Your github profile link
+    portfolioRepository: "https://github.com/MohamedDiabyLR/Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
@@ -624,7 +619,7 @@ export const AppConfig = {
     projectsPageTitle: "Projects & Freelancing",    // Title of projects page
     projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
     projectSections: [                  // Define and add a custom section if needed
-        FreelancingProjects,
+        
         PersonalProjects,
     ],
 
@@ -638,9 +633,10 @@ export const AppConfig = {
     ],
 
     // Education page
-    educationPageTitle: "Degrees and Qualifications",
-    educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
+    educationPageTitle: "Parcours Scolaire",
+    educationPageDescription: "🎓 Voici mon parcours scolaire 🌟",
     educationSections: [
+        LyceeDegree,
         MastersDegree,
         BachelorsDegree,
     ],
