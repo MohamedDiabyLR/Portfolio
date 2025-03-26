@@ -246,55 +246,56 @@ const DigitalSolutionSection: SkillSection = {
 // Personal projects
 const PersonalProjects: ProjectSection = {
     sectionTitle: "Mes Projets",
-    sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
+    sectionSubtitle: "",
     entities: [
         {
-            title: "Web-Based 3D IFC File Viewer",
+            title: "Création d'un site vitrine pour un prestataire",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2022
-        },
-        {
-            title: "Customizable Multi-Select Dropdown",
-            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
-            githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
-            techStack: ["Angular", "TypeScript", "SCSS"],
-            year: 2023,
-            branch: "resource-tree-utility"
-        },
-        {
-            title: "Learning Management System",
-            coverImagePath: AssetPaths.PROJECT_LMS_APP,
-            githubLink: "https://github.com/dhruvilrathod/lms-asite",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
-            techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
-            year: 2023
-        },
-        {
-            title: "Angular + NestJS Boilerplate",
-            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
-            githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
-            techStack: ["Angular", "NestJS", "NgINX", "Docker"],
-            year: 2023
-        },
-        {
-            title: "Hospital Management System Dashboard",
-            coverImagePath: AssetPaths.PROJECT_HMS_APP,
-            githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
-            techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
+            liveLink: "https://www.wp-slf-sio2025.sio1-2lerebours.org/wordpress/",
+            githubLink: "https://www.wp-slf-sio2025.sio1-2lerebours.org/wordpress/",
+            description: " La création d’un site vitrine pour un prestataire via WordPress était de mettre en avant ses services, d’améliorer sa visibilité en ligne et de fournir une plateforme professionnelle.",
+            techStack: ["CMS", "Wordpress", "Gantt"],
             year: 2024
         },
         {
-            title: "Cross-Platform Music Player",
+            title: "Monitoring d'un serveur web nginx",
+            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
+            liveLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Monitoring.pdf",
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Monitoring.pdf",
+            description: "Ce projet déploie une stack web avec Docker, intégrant un serveur web, une base de données et un reverse proxy pour gérer le trafic via un load balancer.",
+            techStack: ["Surveillance", "Supervision",],
+            year: 2025,
+            branch: "resource-tree-utility"
+        },
+        {
+            title: "Mise en place d'un serveur AD",
+            coverImagePath: AssetPaths.PROJECT_LMS_APP,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/ServeurAD.pdf",
+            description: "Ce projet vise à déployer un serveur Active Directory sur VMware pour centraliser la gestion des utilisateurs, des ressources et des stratégies de sécurité d'un réseau d'entreprise.",
+            techStack: ["Service", "Windows", "Gestion"],
+            year: 2024
+        },
+        {
+            title: "Mise en place d'un serveur DHCP",
+            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/DocumentationDHCP.pdf",
+            description: "Virtualisation de clients et d'un serveur DHCP sur machine virtuelle Windows 2003 et 2016 afin d'automatiser l'attribution des adresses IP aux postes clients du réseau.",
+            techStack: ["Service", "IP", "Automatique"],
+            year: 2024
+        },
+        {
+            title: "Mise en place d'un service HSRP",
+            coverImagePath: AssetPaths.PROJECT_HMS_APP,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/DocHSRP.pdf",
+            description: "La mise en place d’une solution HSRP (Hot Standby Router Protocol) sur un réseau Cisco permet de garantir la redondance et la haute disponibilité des passerelles par défaut dans un environnement réseau.",
+            techStack: ["Redondance","Haute Disponibilité"],
+            year: 2025
+        },
+        {
+            title: "Déploiement d'une Stack web avec Docker et loadbalancer",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Stackweb.pdf",
+            description: "Ce projet déploie une stack web avec Docker, intégrant un serveur web, une base de données et un reverse proxy pour gérer le trafic via un load balancer.",
             techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
             year: 2023
         }
@@ -307,21 +308,21 @@ const PersonalProjects: ProjectSection = {
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Parcours Scolaire",
+    experienceSectionTitle: "Voici mes stages",
     experiences: [
         {
-            orgLink: "https://www.lerebours.fr/",
+            orgLink: "https://linware.fr/",
             orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Lycée Le Rebours",
+            orgName: "Linware",
             positions: [
                 {
-                    positionName: "BTS SIO option : Solutions d'infrastructure, systèmes et réseaux",
-                    duration: "Septembre 2023 - Present",
-                    location: "75013 Paris",
+                    positionName: "Expérience en Réseaux et Systèmes",
+                    duration: "Janvier 2025 - Fevrier 2025",
+                    location: "75010 Paris",
                     workPoints: [
                         "Administration de systèmes (Windows, Linux)",
-                        "Mise en place de solutions de cybersécurité",
-                        "Configuration de réseaux et pare-feux",
+                        "Mise en place d'une supervision",
+                        "Configuration de réseaux et serveurs",
                     ]
                 }
             ]
@@ -329,41 +330,22 @@ const JobExperience: ExperienceSection = {
         {
             orgLink: "https://www.univ-spn.fr/",
             orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Université Sorbonne Paris Nord",
+            orgName: "Cefisi",
             positions: [
                 {
-                    positionName: "Licence Informatique",
-                    duration: "Septembre 2021 - Juin 2023",
-                    location: "93400 Villetaneuse ",
+                    positionName: "Expérience en Maintenance et Creation de site",
+                    duration: "Mai 2024 - Juin 2024",
+                    location: "94000 Creteil",
                     
                     
                     workPoints: [
-                        "Langages de programmation : [C , Python , JavaScript]",
-                        "Bases de données : SQL",
-                        "Programmation web et mobile",
+                        "Gestion de Multisite OVH",
+                        "Gestion de serveur SSH",
+                        "Création de sauvegardes",
                     ]
                 }
             ]
         },
-        {
-            orgLink: "https://pia.ac-paris.fr/serail/jcms/s1_95115/fr/accueil",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Lycée Honoré de Balzac",
-            positions: [
-                {
-                    positionName: "Baccalauréat Général",
-                    duration: "Septembre 2018 - Juin 2021",
-                    location: "75017 Paris ",
-                    
-                    
-                    workPoints: [
-                        "Programmation Python",
-                        "Algorithmique",
-                        "Probabilités et statistiques",
-                    ]
-                }
-            ]
-        }
     ]
 }
 
@@ -603,8 +585,8 @@ export const AppConfig = {
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
 
     // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
-    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
+    professionalTitle: "Réseaux | Cybersécurité | Administration Systèmes",
+    professionalSummary: "Passionné par les réseaux et la cybersécurité, je développe mes compétences en administration système et gestion des infrastructures informatiques.",
     githubProfile: "https://github.com/MohamedDiabyLR",              // Your github profile link
     portfolioRepository: "https://github.com/MohamedDiabyLR/Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
@@ -616,23 +598,23 @@ export const AppConfig = {
     ],
 
     // Projects page
-    projectsPageTitle: "Projects & Freelancing",    // Title of projects page
-    projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
+    projectsPageTitle: "Projets",    // Title of projects page
+    projectsPageDescription: "Vous pouvez ici trouvez mes projets effectués lors de ces 2 années.",
     projectSections: [                  // Define and add a custom section if needed
         
         PersonalProjects,
     ],
 
     // Experience page
-    experiencePageTitle: "Stage",
-    experiencePageDescription: "💼 Voici mes stages effectués.",
+    experiencePageTitle: "Experiences",
+    experiencePageDescription: "💼 Voici mes experiences.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
     ],
 
     // Education page
-    educationPageTitle: "Parcours Scolaire",
-    educationPageDescription: "🎓 Voici mon parcours scolaire 🌟",
+    educationPageTitle: "Stage",
+    educationPageDescription: "🎓 Voici mes stages. 🌟",
     educationSections: [
         LyceeDegree,
         BachelorsDegree,
