@@ -20,12 +20,6 @@ const SocialMediaLinks: ExternalSite[] = [
         backgroundColor: "#0066c8", // manually checked
     },
     {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "leetcode",
-        backgroundColor: "#FFA116",
-    },
-    {
         name: "Gmail",
         link: "mailto:mdiaby.it@gmail.com",
         simpleIconName: "gmail",
@@ -258,6 +252,14 @@ const PersonalProjects: ProjectSection = {
             year: 2024
         },
         {
+            title: "La conception et la mise en place d'une infrastructure réseau et système avec Docker.",
+            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/ReseauDockerDIABY%20MOHAMED.pdff",
+            description: "Conception et déploiement d'une première infrastructure réseau et système virtualisée à l'aide de Docker pour une gestion optimisée des services..",
+            techStack: ["Docker","Infrastructure"],
+            year: 2025
+        },
+        {
             title: "Monitoring d'un serveur web nginx",
             coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
             liveLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Monitoring.pdf",
@@ -298,7 +300,32 @@ const PersonalProjects: ProjectSection = {
             description: "Ce projet déploie une stack web avec Docker, intégrant un serveur web, une base de données et un reverse proxy pour gérer le trafic via un load balancer.",
             techStack: ["Disponibilité","Repartition de charges"],
             year: 2025
+        },
+        {
+            title: "Hebergement Local d'un site web sur Linux",
+            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/HebergementLocal.pdf",
+            description: "Hébergement local d’un site web sur Linux avec un serveur web pour un déploiement sécurisé et optimisé.",
+            techStack: ["Disponibilité","Hebergement"],
+            year: 2025
+        },
+        {
+            title: "Monitoring des appareils d'une entreprise (imprimante , chauffage , serveurs)",
+            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/MonitoringACCPAV.pdf",
+            description: "Monitoring des appareils réseaux de l'entreprise.",
+            techStack: ["Surveillance","Alertes"],
+            year: 2025
+        },
+        {
+            title: "Veille technologique",
+            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/MonitoringACCPAV.pdf",
+            description: "Etablissement d'une veille technologique permettant de rester à jour sur un sujet précis.",
+            techStack: ["Actualités","DDOS"],
+            year: 2025
         }
+
     ]
 }
 
