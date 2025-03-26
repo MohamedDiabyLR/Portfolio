@@ -335,7 +335,7 @@ const PersonalProjects: ProjectSection = {
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Voici mes stages",
+    experienceSectionTitle: "Voici mon parcours scolaire",
     experiences: [
         {
             orgLink: "https://linware.fr/",
@@ -558,7 +558,7 @@ const LyceeDegree: EducationSection = {
     duration: "Septembre 2018 - Juin 2021",
     universityName: "Lycée Honoré de Balzac",
     campusName: "75017",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
+    logoImagePath: AssetPaths.EDUCATION_univ_LOGO,
     gpa: "6.9 / 7.0",
     websiteLink: "https://pia.ac-paris.fr/serail/jcms/s1_95115/fr/accueil",
     studyPoints: [
@@ -640,12 +640,12 @@ export const AppConfig = {
     ],
 
     // Education page
-    educationPageTitle: "Stage",
-    educationPageDescription: "🎓 Voici mes stages. 🌟",
+    educationPageTitle: "Etudes",
+    educationPageDescription: "🎓 Voici mon parcours scolaire. 🌟",
     educationSections: [
-        LyceeDegree,
-        BachelorsDegree,
         MastersDegree,
+        BachelorsDegree,
+        LyceeDegree,
     ],
 
 
