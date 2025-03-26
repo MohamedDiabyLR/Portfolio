@@ -624,12 +624,10 @@ export const AppConfig = {
     ],
 
     // Experience page
-    experiencePageTitle: "My Works, Internships and Freelancing",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
+    experiencePageTitle: "Stage",
+    experiencePageDescription: "💼 Voici mes stages effectués.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
-        InternshipExperience,
-        FreelancingExperience,
     ],
 
     // Education page
@@ -637,8 +635,8 @@ export const AppConfig = {
     educationPageDescription: "🎓 Voici mon parcours scolaire 🌟",
     educationSections: [
         LyceeDegree,
-        MastersDegree,
         BachelorsDegree,
+        MastersDegree,
     ],
 
 
