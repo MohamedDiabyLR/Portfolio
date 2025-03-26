@@ -227,7 +227,7 @@ const DigitalSolutionSkills: ExternalSite[] = [
 
 // Design section
 const DigitalSolutionSection: SkillSection = {
-    sectionTitle: "Digital Solutions & Consultancy",
+    sectionTitle: "Gestion de l'infrastructure",
     imagePath: AssetPaths.DIGITAL_SOLUTIONS_SVG,
     skillLinks: DigitalSolutionSkills,
     skillsList: [
@@ -323,6 +323,14 @@ const PersonalProjects: ProjectSection = {
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/MonitoringACCPAV.pdf",
             description: "Etablissement d'une veille technologique permettant de rester à jour sur un sujet précis.",
             techStack: ["Actualités","DDOS"],
+            year: 2025
+        },
+        {
+            title: "Tableau de Synthese",
+            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Tableaudesynthese.pdf",
+            description: "Etablissement d'un tableau de synthèse resumant les projets de ces années.",
+            techStack: ["Resumé","Projet"],
             year: 2025
         }
 
@@ -574,7 +582,7 @@ const BachelorsDegree: EducationSection = {
     duration: "Septembre 2021 - Juin 2023",
     universityName: "Université Sorbonne Paris Nord",
     campusName: "Villetaneuse",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
+    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
     gpa: "6.9 / 7.0",
     websiteLink: "https://www.univ-spn.fr/",
     studyPoints: [
@@ -590,7 +598,7 @@ const MastersDegree: EducationSection = {
     duration: "Septembre 2023 - Juin 2025",
     universityName: "Lycée Le Rebours",
     campusName: "75013",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
+    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
     gpa: "6.7 / 7.0",
     websiteLink: "https://www.lerebours.fr/",
     studyPoints: [
