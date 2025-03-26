@@ -254,7 +254,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "La conception et la mise en place d'une infrastructure réseau et système avec Docker.",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/ReseauDockerDIABY%20MOHAMED.pdff",
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/ReseauDockerDIABY%20MOHAMED.pdf",
             description: "Conception et déploiement d'une première infrastructure réseau et système virtualisée à l'aide de Docker pour une gestion optimisée des services..",
             techStack: ["Docker","Infrastructure"],
             year: 2025
@@ -295,7 +295,7 @@ const PersonalProjects: ProjectSection = {
         },
         {
             title: "Déploiement d'une Stack web avec Docker et loadbalancer",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            coverImagePath: AssetPaths.PROJECT_STACK,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Stackweb.pdf",
             description: "Ce projet déploie une stack web avec Docker, intégrant un serveur web, une base de données et un reverse proxy pour gérer le trafic via un load balancer.",
             techStack: ["Disponibilité","Repartition de charges"],
@@ -303,7 +303,7 @@ const PersonalProjects: ProjectSection = {
         },
         {
             title: "Hebergement Local d'un site web sur Linux",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            coverImagePath: AssetPaths.PROJECT_HEBER,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/HebergementLocal.pdf",
             description: "Hébergement local d’un site web sur Linux avec un serveur web pour un déploiement sécurisé et optimisé.",
             techStack: ["Disponibilité","Hebergement"],
@@ -311,7 +311,7 @@ const PersonalProjects: ProjectSection = {
         },
         {
             title: "Monitoring des appareils d'une entreprise (imprimante , chauffage , serveurs)",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            coverImagePath: AssetPaths.PROJECT_MONI,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/MonitoringACCPAV.pdf",
             description: "Monitoring des appareils réseaux de l'entreprise.",
             techStack: ["Surveillance","Alertes"],
@@ -319,7 +319,7 @@ const PersonalProjects: ProjectSection = {
         },
         {
             title: "Veille technologique",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            coverImagePath: AssetPaths.PROJECT_VEILLE,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/MonitoringACCPAV.pdf",
             description: "Etablissement d'une veille technologique permettant de rester à jour sur un sujet précis.",
             techStack: ["Actualités","DDOS"],
@@ -327,7 +327,7 @@ const PersonalProjects: ProjectSection = {
         },
         {
             title: "Tableau de Synthese",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+            coverImagePath: AssetPaths.PROJECT_TAB,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Tableaudesynthese.pdf",
             description: "Etablissement d'un tableau de synthèse resumant les projets de ces années.",
             techStack: ["Resumé","Projet"],
