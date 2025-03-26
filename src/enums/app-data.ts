@@ -296,7 +296,7 @@ const PersonalProjects: ProjectSection = {
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Stackweb.pdf",
             description: "Ce projet déploie une stack web avec Docker, intégrant un serveur web, une base de données et un reverse proxy pour gérer le trafic via un load balancer.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
+            techStack: ["Disponibilité","Repartition de charges"],
             year: 2023
         }
     ]
