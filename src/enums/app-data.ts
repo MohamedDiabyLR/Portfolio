@@ -502,9 +502,9 @@ const MastersDegree: EducationSection = {
     
     websiteLink: "https://www.lerebours.fr/",
     studyPoints: [
-        "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
-        "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
-        "Developed strategic skills through Consultancy, Enterprise Security, and hands-on labs experience with tech-giants including Cisco and FortiGate. 🚀",
+        "Mise en place de serveurs (AD , DHCP , DNS)",
+        "Virtualisation ( Windows , Linux)",
+        "Mise en place de monitoring de serveur",
     ]
 }
 
