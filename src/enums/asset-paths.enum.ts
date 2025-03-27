@@ -39,7 +39,7 @@ export enum AssetPaths {
     ACHIEVEMENT_CPC_RSP_WIN_PIC = "assets/achievement-images/feedly.jpg",
     ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC = "assets/achievement-images/google.png",
     ACHIEVEMENT_DDOS1 = "assets/achievement-images/ddos1.jpg",
-    ACHIEVEMENT_DDOS2 = "assets/achievement-images/ddos2.jpg",
+    ACHIEVEMENT_DDOS2 = "assets/achievement-images/ddos2.png",
     ACHIEVEMENT_DDOS3 = "assets/achievement-images/ddos1.jpg",
     ACHIEVEMENT_DDOS4 = "assets/achievement-images/ddos1.jpg",
     ACHIEVEMENT_DDOS5 = "assets/achievement-images/ddos1.jpg",

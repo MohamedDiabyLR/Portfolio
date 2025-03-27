@@ -442,7 +442,7 @@ const AchievementInvolvement: ProjectSection = {
         {
             liveLink: "https://feedly.com/",
             coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
-            techStack: ["Outils","Actualités"],
+            techStack: ["PULL","Actualités"],
             title: "Feedly",
             description: "Feedly est une solution qui permet de suivre des flux RSS,le logiciels prend en compte les informations provenants des blogs, site d'actualité",
             year: 2025,
@@ -451,7 +451,7 @@ const AchievementInvolvement: ProjectSection = {
             coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
             liveLink: "https://www.google.fr/alerts",
             // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
-            techStack: ["Alertes", "News"],
+            techStack: ["PUSH", "News"],
             title: "Google Alertes",
             description: "Les Google Alertes vous informent en cas de nouveauté pertinente selon les domaines ou les termes de recherche que vous avez choisis.",
             year: 2025,
@@ -551,9 +551,10 @@ export const AppConfig = {
     educationPageTitle: "Etudes",
     educationPageDescription: "🎓 Voici mon parcours scolaire. 🌟",
     educationSections: [
+        LyceeDegree,
         MastersDegree,
         BachelorsDegree,
-        LyceeDegree,
+        
     ],
 
 
