@@ -35,72 +35,7 @@ const SocialMediaLinks: ExternalSite[] = [
 
 // Fullstack skills
 const FullstackSkills: ExternalSite[] = [
-    {
-        name: "Angular",
-        link: "https://angular.dev/",
-        simpleIconName: "angular",
-        backgroundColor: "#ea2848",
-    },
-    {
-        name: "HTML5",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        simpleIconName: "html5",
-        backgroundColor: "#E34F26",
-    },
-    {
-        name: "CSS3",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        simpleIconName: "css3",
-        backgroundColor: "#1572B6",
-    },
-    {
-        name: "Sass",
-        link: "https://sass-lang.com/",
-        simpleIconName: "sass",
-        backgroundColor: "#CC6699",
-    },
-    {
-        name: "NodeJS",
-        link: "https://nodejs.org/",
-        simpleIconName: "nodedotjs",
-        backgroundColor: "#5FA04E",
-    },
-    {
-        name: "JavaScript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        simpleIconName: "javascript",
-        backgroundColor: "#F7DF1E",
-    },
-    {
-        name: "ExpressJS",
-        link: "https://expressjs.com/",
-        simpleIconName: "express",
-        backgroundColor: "#000000",
-    },
-    {
-        name: "ThreeJS",
-        link: "https://threejs.org/",
-        simpleIconName: "threedotjs",
-        backgroundColor: "#000000",
-    },
-    {
-        name: "Tailwind CSS",
-        link: "https://tailwindcss.com/",
-        simpleIconName: "tailwindcss",
-        backgroundColor: "#06B6D4",
-    },
-    {
-        name: "Bootstrap",
-        link: "https://getbootstrap.com/",
-        simpleIconName: "bootstrap",
-        backgroundColor: "#7952B3",
-    },
-    {
-        name: "PrimeNG",
-        link: "https://primeng.org/",
-        simpleIconName: "primeng",
-        backgroundColor: "#DD0031",
-    },
+    
 ];
 
 // Fullstack section
@@ -118,54 +53,15 @@ const FullstackSection: SkillSection = {
 
 // Could skills
 const CloudSkills: ExternalSite[] = [
-    {
-        name: "GCP",
-        link: "https://cloud.google.com/",
-        simpleIconName: "googlecloud",
-        backgroundColor: "#4285F4",
-    },
-    {
-        name: "AWS",
-        link: "https://aws.amazon.com/",
-        simpleIconName: "amazonwebservices",
-        backgroundColor: "#232F3E",
-    },
-    {
-        name: "Firebase",
-        link: "https://firebase.google.com/",
-        simpleIconName: "firebase",
-        backgroundColor: "#FFCA28",
-    },
-    {
-        name: "PostgreSQL",
-        link: "https://www.postgresql.org/",
-        simpleIconName: "postgresql",
-        backgroundColor: "#336791",
-    },
-    {
-        name: "MongoDB",
-        link: "https://www.mongodb.com/",
-        simpleIconName: "mongodb",
-        backgroundColor: "#47A248",
-    },
+    
     {
         name: "Docker",
         link: "https://www.docker.com/",
         simpleIconName: "docker",
         backgroundColor: "#1488C6",
     },
-    {
-        name: "Render",
-        link: "https://render.com/",
-        simpleIconName: "render",
-        backgroundColor: "#000000",
-    },
-    {
-        name: "Heroku",
-        link: "https://www.heroku.com/",
-        simpleIconName: "heroku",
-        backgroundColor: "#430098",
-    },
+    
+   
 ];
 
 // Could section
@@ -182,24 +78,7 @@ const CloudSection: SkillSection = {
 
 // Design skills
 const DesignSkills: ExternalSite[] = [
-    {
-        name: "Adobe XD",
-        link: "https://adobexdplatform.com/",
-        simpleIconName: "adobexd",
-        backgroundColor: "#FF2BC2",
-    },
-    {
-        name: "Figma",
-        link: "https://figma.com/",
-        simpleIconName: "figma",
-        backgroundColor: "#F24E1E",
-    },
-    {
-        name: "Adobe Illustrator",
-        link: "https://www.adobe.com/au/products/illustrator.html/",
-        simpleIconName: "adobeillustrator",
-        backgroundColor: "#FF7C00",
-    },
+    
     {
         name: "Adobe Photoshop",
         link: "https://www.adobe.com/products/photoshop.html/",
@@ -320,7 +199,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Veille technologique",
             coverImagePath: AssetPaths.PROJECT_VEILLE,
-            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/MonitoringACCPAV.pdf",
+            
             description: "Etablissement d'une veille technologique permettant de rester à jour sur un sujet précis.",
             techStack: ["Actualités","DDOS"],
             year: 2025
@@ -521,40 +400,61 @@ const InternshipExperience: ExperienceSection = {
 
 // Community Involvement
 const CommunityInvolvement: ProjectSection = {
-    sectionTitle: "Community Involvement",
+    sectionTitle: "Veille",
     entities: [
         {
-            liveLink: "https://adventofcode.com/",
-            coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
-            techStack: ["Python"],
-            title: "Advent of Code 2024",
-            description: "📅 Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.🎯",
-            year: 2024,
-            githubLink: "https://github.com/dhruvilrathod/RSP/tree/master/advent_of_code",
+            liveLink: "https://www.itforbusiness.fr/des-attaques-ddos-en-croissance-de-550-89079",
+            coverImagePath: AssetPaths.ACHIEVEMENT_DDOS1,
+            techStack: ["Veille"],
+            title: "Croissance des DDOS",
+            description: "📅 Augmentation de 550 % des attaques DDoS en 2024,Radware rapporte une augmentation significative des attaques DDoS en 2024, principalement en raison de l'utilisation accrue de l'IA par les cybercriminels.",
+            year: 2025,
+            githubLink: "https://www.itforbusiness.fr/des-attaques-ddos-en-croissance-de-550-89079",
         },
+        {
+            liveLink: "https://incyber.org/article/groupe-pro-palestinien-dark-storm-revendique-cyberattaque-qui-perturbe-x/",
+            coverImagePath: AssetPaths.ACHIEVEMENT_DDOS2,
+            techStack: ["Veille"],
+            title: "X victime d'attaques DDOS",
+            description: "Le réseau social X (ex-Twitter) a subi un ralentissement durant la journée du 10 mars 2025, à la suite d’une cyberattaque, revendiquée par les hacktivistes pro-palestiniens de Dark Storm.",
+            year: 2025,
+            githubLink: "https://incyber.org/article/groupe-pro-palestinien-dark-storm-revendique-cyberattaque-qui-perturbe-x/",
+        },
+        {
+            liveLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Source.pdf",
+            coverImagePath: AssetPaths.ACHIEVEMENT_DDOS1,
+            techStack: ["Python"],
+            title: "Mes articles",
+            description: "📅 Augmentation de 550 % des attaques DDoS en 2024,Radware rapporte une augmentation significative des attaques DDoS en 2024, principalement en raison de l'utilisation accrue de l'IA par les cybercriminels.",
+            year: 2025,
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Source.pdf",
+        },
+
+
+        
     ]
 }
 
 // Achievement
 const AchievementInvolvement: ProjectSection = {
-    sectionTitle: "Achievements",
+    sectionTitle: "Outils",
     entities: [
         {
-            liveLink: "https://www.linkedin.com/posts/dhruvilrathod_competitiveprogramming-codingchallenges-teamwork-activity-7291965632684695553-CTqM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi05s0B8nMLyX_mC2aovn2P6w6tNr-b3AA",
+            liveLink: "https://feedly.com/",
             coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
-            techStack: ["C++", "Python"],
-            title: "CPC X RSP 2025",
-            description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
+            techStack: ["Outils","Actualités"],
+            title: "Feedly",
+            description: "Feedly est une solution qui permet de suivre des flux RSS,le logiciels prend en compte les informations provenants des blogs, site d'actualité",
             year: 2025,
         },
         {
             coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
-            liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
+            liveLink: "https://www.google.fr/alerts",
             // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
-            techStack: ["Cisco", "FortiGate", "ISO 270001"],
-            title: "Chancellor's Commendation Letter (2024)",
-            description: "🚀 Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
-            year: 2024,
+            techStack: ["Alertes", "News"],
+            title: "Google Alertes",
+            description: "Les Google Alertes vous informent en cas de nouveauté pertinente selon les domaines ou les termes de recherche que vous avez choisis.",
+            year: 2025,
         },
     ]
 }
@@ -658,8 +558,8 @@ export const AppConfig = {
 
 
     // Achievements Page
-    achievementsPageTitle: "Achievements, Participation and Community Involvement",
-    achievementsPageDescription: "🚀 Milestones, Contributions & Impact: Driving Innovation, Engaging Communities, and Making a Difference 🌍",
+    achievementsPageTitle: "La veille et Outils",
+    achievementsPageDescription: "🚀 Voici ma veille technologique et les outils qui m'ont permis à la mener 🌍",
     achievementsSections: [
         AchievementInvolvement,
         CommunityInvolvement,
