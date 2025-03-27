@@ -199,7 +199,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Veille technologique",
             coverImagePath: AssetPaths.PROJECT_VEILLE,
-            
+            githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Source.pdf",
             description: "Etablissement d'une veille technologique permettant de rester à jour sur un sujet précis.",
             techStack: ["Actualités","DDOS"],
             year: 2025
