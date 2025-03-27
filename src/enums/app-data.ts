@@ -466,8 +466,8 @@ const LyceeDegree: EducationSection = {
     duration: "Septembre 2018 - Juin 2021",
     universityName: "Lycée Honoré de Balzac",
     campusName: "75017",
-    logoImagePath: AssetPaths.EDUCATION_univ_LOGO,
-    gpa: "6.9 / 7.0",
+    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
+    
     websiteLink: "https://pia.ac-paris.fr/serail/jcms/s1_95115/fr/accueil",
     studyPoints: [
         "Programmation Python",
@@ -482,8 +482,8 @@ const BachelorsDegree: EducationSection = {
     duration: "Septembre 2021 - Juin 2023",
     universityName: "Université Sorbonne Paris Nord",
     campusName: "Villetaneuse",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
-    gpa: "6.9 / 7.0",
+    logoImagePath: AssetPaths.EDUCATION_univ_LOGO,
+    
     websiteLink: "https://www.univ-spn.fr/",
     studyPoints: [
         "Langages de programmation : [C , Python , JavaScript]",
@@ -498,8 +498,8 @@ const MastersDegree: EducationSection = {
     duration: "Septembre 2023 - Juin 2025",
     universityName: "Lycée Le Rebours",
     campusName: "75013",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
-    gpa: "6.7 / 7.0",
+    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
+    
     websiteLink: "https://www.lerebours.fr/",
     studyPoints: [
         "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
@@ -551,9 +551,9 @@ export const AppConfig = {
     educationPageTitle: "Etudes",
     educationPageDescription: "🎓 Voici mon parcours scolaire. 🌟",
     educationSections: [
-        LyceeDegree,
         MastersDegree,
         BachelorsDegree,
+        LyceeDegree,
         
     ],
 
