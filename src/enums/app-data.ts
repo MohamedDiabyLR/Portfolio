@@ -222,7 +222,7 @@ const PersonalProjects: ProjectSection = {
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Voici mon parcours scolaire",
+    experienceSectionTitle: "Voici mes stages effectués",
     experiences: [
         {
             orgLink: "https://linware.fr/",
@@ -422,10 +422,10 @@ const CommunityInvolvement: ProjectSection = {
         },
         {
             liveLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Source.pdf",
-            coverImagePath: AssetPaths.ACHIEVEMENT_DDOS1,
+            coverImagePath: AssetPaths.PROJECT_VEILLE,
             techStack: ["Python"],
             title: "Mes articles",
-            description: "📅 Augmentation de 550 % des attaques DDoS en 2024,Radware rapporte une augmentation significative des attaques DDoS en 2024, principalement en raison de l'utilisation accrue de l'IA par les cybercriminels.",
+            description: "📅 Voici mes articles.",
             year: 2025,
             githubLink: "https://github.com/MohamedDiabyLR/Preuve/blob/main/Source.pdf",
         },
